@@ -21,7 +21,7 @@ def main():
     utils.load_config('config.json')
 
     for vm_config in config['deploy_vm']:
-        deploy_vm(si, vm_config['ova_path'], vm_config['name'])
+        deploy_vm(content, vm_config['ova_path'], vm_config['name'])
         
         
 if __name__ == '__main__':
