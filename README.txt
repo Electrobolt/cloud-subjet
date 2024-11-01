@@ -10,7 +10,6 @@ NOM: EDO VOUNDI NICOLAS PHARELL
 
     * Du à un problème interne à la machine, je n'ai pas pu déployer l'EXSI que ce soit sur VirtualBox ou sur VMWare. Mais je tenait à au moins participer en m'attelant à la partie code.
     
-    *La dernière question sur l'attachement du cdrom n'a pas été faite faute de compréhension de l'exemple "pyvmomi-community-
-samples/samples/cdrom_vm.py"
+    *La dernière question sur l'attachement du cdrom n'a pas été faite faute de compréhension de l'exemple "pyvmomi-community-samples/samples/cdrom_vm.py"
 
 Merci de votre considération.
