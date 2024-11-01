@@ -1,0 +1,26 @@
+{
+  "deploy_vm": [
+    {
+      "ova_path": "[vDatastore208_101] test/tinyVM.ova",
+      "name": "tinyVM1"
+    }
+  ],
+  "clone_vms": [
+    {
+      "source_name": "tinyVM1",
+      "name": "tinyVM_clone",
+      "count": 1
+    }
+  ],
+  "create_vms": [
+    {
+      "name": "newVM1",
+      "memoryMB": 1024,
+      "numCPUs": 1,
+      "datastore": "vDatastore208_101",
+      
+      
+      "isoPath": "[vDatastore208_101] test/Core-5.4.iso"
+    }
+  ]
+}
